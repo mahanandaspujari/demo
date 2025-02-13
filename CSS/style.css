@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color1:#FB5B21;
+    --color2:#BDBDBF;
+    --color3:#222429;
+}
+
+.header{
+    background-color:var(--color3);
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+    color: var(--color1);
+}
+.header img{
+    height: 20px;
+    width: 30px;
+    outline: 1px solid gray;
+    outline-offset: 10px;
+}
+.header1{
+    display: none;
+}
+.main{
+    background-image: url(../Images/Background/carousel-2.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.main h3,h2{
+    text-transform: uppercase;
+}
+.main h2{
+    font-size: 27px;
+}
+.btn1{
+    padding: 10px;
+    background-color: var(--color1);
+    border: none;
+    border-radius: 5px;
+}
+.btn2{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.about{
+    padding: 45px;
+}
+.img1{
+    width: 230px;
+    height: 500px;
+    border-radius: 10px;
+}
+.img1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.about1{
+    background-color: var(--color3);
+    padding: 50px;
+    color: white;
+    border-radius: 3px;
+}
+.about1 button{
+    padding: 10px;
+    background-color: var(--color1);
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: 70px;
+    border-radius: 3px;
+}
+.about1 h4{
+    color: var(--color1);
+}
+.about1 p{
+    font-size: 18px;
+    color: rgb(196, 196, 196);
+}
+.about1 div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.details{
+    background-color: var(--color3);
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+}
+.one{
+    padding: 45px;
+    background-color: aliceblue;
+    border-radius: 3px;
+    text-align: center;
+}
+.one button{
+    background-color: aliceblue;
+    border: none;
+    font-size: 16px;
+    color: var(--color1);
+}
+.second{
+    /* margin: 45px; */
+    text-align: center;
+}
+.second h2{
+    color: white;
+}
+.second button{
+    padding: 15px;
+    width: 100%;
+    color: white;
+    background-color: var(--color1);
+    border: none;
+    border-radius: 3px;
+}
+.schedule{
+    padding: 45px;
+    text-align: center;
+}
+.days{
+    background-color: var(--color3);
+    padding: 10px;
+    border-radius: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.schedule h3{
+    color: var(--color1);
+}
+
+.days button{
+    padding: 6px;
+    border: none;
+    border-radius: 20px;
+    /* width: 90px; */
+    color: white;
+    background-color: var(--color3);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.schedule1{
+    padding: 45px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    text-transform: uppercase;
+}
+.schedule1 h3{
+    color: #FB5B21;
+    font-size: 20px;
+}
+.schedule1 h4{
+    font-size: 17px;
+}
+.first{
+    background-color: var(--color3);
+    padding: 15px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 10px;
+}
+.div1{
+    background-color: var(--color3);
+    padding: 45px;
+    height: 530px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+}
+.list1{
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+.contact{
+    background-color: #222429;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+}
+.contact1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* padding: 45px; */
+    line-height: 35px;
+
+}
+.contact li{
+    list-style-type: none;
+    list-style-position: inside;
+    font-size: 18px;
+}
+.map{
+    list-style-image: url(../Images/Illustration/map.PNG);
+}
+.email{
+    list-style-image: url(../Images/Illustration/email1.PNG);
+}
+.phone{
+    list-style-image: url(../Images/Illustration/phone.PNG);
+}
+.quicklinks{
+    list-style-image: url(../Images/Illustration/arrow.PNG);
+}
+.popularlinks{
+    list-style-image: url(../Images/Illustration/arrow.PNG);
+}
+.newsletter{
+    background-color: var(--color1);
+    padding: 30px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.newsletter input{
+    padding: 13px;
+    width: 15%;
+    font-size: 17px;
+}
+.newsletter button{
+    padding: 13px;
+    font-size: 17px;
+    border: none;
+    color: white;
+    background-color: var(--color3);
+}
+.newsletter p{
+    font-size: 18px;
+}
+.footer{
+    background-color: black;
+    padding: 45px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.trainers{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 45px;
+    color: white;
+}
+.teams{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    align-items: flex-end;
+      
+}
+.team1{
+    height: 370px;
+    background-image: url(../Images/Background/team-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.team1:hover{
+    opacity:0.5;
+}
+.team2:hover{
+    opacity:0.5;
+}
+.team3:hover{
+    opacity:0.5;
+}
+.team2{
+    height: 370px;
+    background-image: url(../Images/Background/team-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.team3{
+    height: 370px;
+    background-image: url(../Images/Background/team-3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media(min-width:768px){
+    .main{
+        padding-top: 120px;
+        height: 320px;
+    }
+    .main h3{
+        font-size: 30px;
+    }
+    .main h2{
+        font-size: 50px;
+    }
+    .main button{
+        padding: 20px;
+        width: 150px;
+    }
+    .img1{
+        width: 100%;
+    }
+    .about1 button{
+        width: 280px;
+    }
+    .about1 div{
+        gap: 80px;
+    }
+    .details{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .body{
+        height: 90px;
+        width: 80px;
+    }
+    .weight{
+        height: 90px;
+        width: 80px;
+    }
+    .muscle{
+        height: 90px;
+        width: 80px;
+    }
+    .one{
+        width: 33%;
+    }
+    .second{
+        width: 45%;
+    }
+    .schedule1{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .schedule1 h3{
+        font-size: 19px;
+    }
+    .first{
+        width: 24%;
+    }
+    .div1{
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 280px;
+        gap: 0px;
+        align-items: center;
+    }
+    .list1{
+        width: 45%;
+    }
+    .contact{
+        flex-direction: row;
+    }
+    .contact1{
+        width: 55%;
+    }
+    .newsletter{
+        height: 93%;
+        margin: 0px;
+        width: 70%;
+    }
+    .newsletter input{
+        width: 40%;
+    }
+    .teams{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .team1{
+        width: 45%;
+    }
+    .team2{
+        width: 45%;
+    }
+    .team3{
+        width: 45%;
+    }
+}
+
+@media(min-width:992px){
+    .header{
+        justify-content: start;
+        height: 115px;
+    }
+    .header h1{
+        font-size: 40px;
+    }
+    .header img{
+        display: none;
+    }
+    .header1
+    {
+        display: block;
+        background-color: black;
+        width: 70%;
+        position: absolute;
+        top: 0px;
+        left: 30%;
+    }
+    .head1{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        background-color: var(--color2);
+        /* width: 100%; */
+        padding: 15px;
+        margin-top: 0px;
+    }
+    .head1 li{
+        list-style-type: none;
+        list-style-position: inside;
+    }
+    .email{
+        list-style-image: url(../Images/Illustration/email.png);
+    }
+    .phone{
+        list-style-image: url(../Images/Illustration/phone-call-icon.png);
+    }
+    .head2{
+        display: flex;
+        padding: 25px;
+        justify-content: space-around;
+        align-items: center;
+        background-color: var(--color3);
+    }
+    .head2 nav{
+        display: flex;
+        gap: 20px;
+    }
+    .head2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .head2 a:hover{
+        color: var(--color1);
+    }
+    .head2 button{
+        padding: 15px;
+        font-size: 20px;
+        background-color: var(--color1);
+        color: white;
+        width: 20%;
+        border: none;
+        border-radius: 5px;
+    }
+    .main{
+        padding-top: 120px;
+        height: 420px;
+    }
+    .about{
+        display: flex;
+        gap: 25px;
+    }
+    .img1{
+        /* width: %; */
+        height: 790px;
+    }
+    .about2{
+        display: flex; 
+        flex-direction:column;
+        width:56%;
+    }
+    .aboutinfo h2{
+        font-size: 50px;
+    }
+    .aboutinfo h3{
+        font-size: 22px;
+    }
+    .aboutinfo p{
+        font-size: 19px;
+    }
+    .one{
+        width: 20%;
+    }
+    .second{
+        width: 100%;
+    }
+    .second button{
+        width: 25%;
+    }
+    .body{
+        height: 100px;
+        width: 90px;
+    }
+    .weight{
+        height: 100px;
+        width: 90px;
+    }
+    .muscle{
+        height: 100px;
+        width: 90px;
+    }
+    .schedule{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .schedule1{
+        justify-content: center;
+    }
+    .first{
+        width: 17%;
+    }
+    .div1{
+        gap: 60px;
+        height: 200px;
+    }
+    .list1{
+        width: 20%;
+    }
+    .contact{
+        gap: 25px;
+        height: 300px;
+    }
+    .contact1{
+        flex-direction: row;
+        width: 70%;
+        gap: 0px;
+    }
+    .contact1 div{
+        width: 400px;
+    }
+    .newsletter{
+        width: 75%;
+        height: 80%;
+    }
+    .newsletter input{
+        width: 30%;
+    }
+    .team1{
+        width: 30%;
+    }
+    .team2{
+        width: 30%;
+    }
+    .team3{
+        width: 30%;
+    }
+}
